@@ -59,7 +59,10 @@
     Faixa etária: 2–5 anos.
     Por que as crianças gostam: Histórias simples sobre família, escola e amigos. As crianças se identificam com situações parecidas com a vida delas.
 </p>
-
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
     
 
    <h3> <strong>Crianças de 5 á 10 anos:</strong></h3>
@@ -70,7 +73,10 @@
 
     <p> Série: Sonic Prime.
      Faixa etária: 6–10 anos.
-     Por que as crianças gostam: Ação rápida, humor, personagens conhecidos dos videogames e diferentes mundos para explorar.</p>
+     Por qufunction botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}e as crianças gostam: Ação rápida, humor, personagens conhecidos dos videogames e diferentes mundos para explorar.</p>
 
     <p> Série: Jurassic World: Camp Cretaceous.
      Faixa etária: 8–10 anos.
@@ -106,7 +112,6 @@
     const botao = document.querySelector("button");
     botao.addEventListener("click", botaoClicado);
     function botaoClicado() {
-    console.log("foi clicado")
 let texto = botao.querySelector("span");
 texto.textContent++;
 }
